@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.stage{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 120, 215, .4); 
+	overflow: hidden;
+}
+
+.sheep{
+	position: absolute;
+	width: 164px;
+	height: 122px;
+	right: -164px;
+	bottom: 30px;
+	background:url(../image/sheep.png) no-repeat;
+	background-position: 0 0; 
+	cursor: pointer;
+}
